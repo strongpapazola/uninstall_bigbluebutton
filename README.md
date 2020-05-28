@@ -13,5 +13,5 @@ python3 uninstall_package.py
 </pre>
 * OR
 <pre>
-python3 resUn.py #(not recomended)
+python3 resUn.py #(not recomended because maybe some files still available)
 </pre>
