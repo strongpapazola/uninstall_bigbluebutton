@@ -1,6 +1,17 @@
 # uninstall_bigbluebutton
-- apt install python3 python3-pip -y
-- python3 uninstall_package.py
-- <strong> result from step 2, copy that, and paste to file dump.txt, and ```cat dump.txt | grep "not removed"``` </strong>
+
+~ For Remove Package
+<pre>
+apt install python3 -y
+python3 uninstall_package.py
+</pre>
+
+~ To Delete Files That Are't Deleted 
+<pre>
+#Copy result from "python3 uninstall_package.py" and paste on dump.txt
+#And ```cat dump.txt | grep "not removed"``` and place on resUn.py
+</pre>
 * OR
-- <strong> python3 resUn.py (not recomended) </strong>
+<pre>
+python3 resUn.py #(not recomended)
+</pre>
