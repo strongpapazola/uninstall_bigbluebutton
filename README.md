@@ -8,10 +8,11 @@ python3 uninstall_package.py
 
 ~ To Delete Files That Are't Deleted 
 <pre>
-python3 resUn.py #(not recomended because maybe some files still available)
+python3 resUn.py 
 </pre>
 
 <!--
+#(not recomended because maybe some files still available)
 <pre>
 #Copy result from "python3 uninstall_package.py" and paste on dump.txt
 cat dump.txt | grep "not removed" # and place on resUn.py
