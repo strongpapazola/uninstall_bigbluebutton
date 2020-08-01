@@ -24,12 +24,13 @@ def shell(cmd):
 
 a = shell('dpkg -l | grep bbb').splitlines()
 
-
+pemisah = ' '
 j = []
 for i in a:
  i = i.split('  ')
  if i[1]:
-  system('apt purge '+i[1]+' -y')
+  j.append(i[1])
+  
 
-system('apt autoremove -y')
+system('apt purge --autoremove '+str(pemisah.join(j))+' -y')
 
